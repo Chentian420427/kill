@@ -51,10 +51,10 @@ public class SampleController {
 
         return Result.success(user);
     }
-
     @RequestMapping("/redis/set")
     @ResponseBody
     public Result<Boolean> redisSet(){
+
         User user = new User();
         user.setId(1);
         user.setName("11111");
