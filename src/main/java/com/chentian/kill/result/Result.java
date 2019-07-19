@@ -22,8 +22,21 @@ public class Result<T> {
         }
     }
 
+    /**
+     * 成功使用
+     * @param data
+     * @param <T>
+     * @return
+     */
     public static <T> Result<T> success(T data){
         return new Result<T>(data);
+    }
+
+    /**
+     *  失败时候的调用
+     * */
+    public static  <T> Result<T> error(CodeMsg codeMsg){
+        return new Result<T>(codeMsg);
     }
 
     public int getCode() {
