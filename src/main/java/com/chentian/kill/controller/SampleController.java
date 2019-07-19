@@ -57,7 +57,7 @@ public class SampleController {
 
         User user = new User();
         user.setId(1);
-        user.setName("11111");
+        user.setName("33333");
         boolean v1 = redisService.set(UserKey.getById,""+1,user);
         return Result.success(v1);
     }
