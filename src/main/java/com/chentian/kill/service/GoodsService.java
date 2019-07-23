@@ -1,6 +1,8 @@
 package com.chentian.kill.service;
 
 import com.chentian.kill.dao.GoodsDao;
+import com.chentian.kill.domain.Goods;
+import com.chentian.kill.domain.MiaoshaGoods;
 import com.chentian.kill.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,5 +22,16 @@ public class GoodsService {
 
     public GoodsVo getGoodsVoByGoodsId(long goodsId) {
         return goodsDao.getGoodsVoByGoodsId(goodsId);
+    }
+
+    /**
+     * 减少库存
+     * @param goods
+     */
+    public void reduceStock(GoodsVo goods) {
+        MiaoshaGoods g = new MiaoshaGoods();
+        g.setGoodsId(goods.getId());
+
+        goodsDao.reduceStock(g);
     }
 }
