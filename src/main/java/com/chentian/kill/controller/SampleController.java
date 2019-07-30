@@ -1,6 +1,7 @@
 package com.chentian.kill.controller;
 
 import com.chentian.kill.domain.User;
+import com.chentian.kill.rabbitmq.MQSender;
 import com.chentian.kill.redis.RedisService;
 import com.chentian.kill.redis.UserKey;
 import com.chentian.kill.result.Result;
@@ -21,6 +22,9 @@ public class SampleController {
     @Autowired
     RedisService redisService;
 
+    @Autowired
+    MQSender sender;
+
     @RequestMapping("/thymeleaf")
     public String thymeleaf(Model model){
         System.out.println("jjinaaaaaa");
@@ -34,6 +38,14 @@ public class SampleController {
         User user = userService.getById(1);
 
         return Result.success(user);
+    }
+
+    @RequestMapping("/mq")
+    @ResponseBody
+    public Result<String> mq(){
+       sender.send("hello,rabbitmq");
+
+        return Result.success("Hello,world");
     }
 
     @RequestMapping("/db/tx")
