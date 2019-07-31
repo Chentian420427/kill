@@ -40,13 +40,13 @@ public class SampleController {
         return Result.success(user);
     }
 
-    @RequestMapping("/mq")
-    @ResponseBody
-    public Result<String> mq(){
-       sender.send("hello,rabbitmq");
-
-        return Result.success("Hello,world");
-    }
+//    @RequestMapping("/mq")
+//    @ResponseBody
+//    public Result<String> mq(){
+//       sender.send("hello,rabbitmq");
+//
+//        return Result.success("Hello,world");
+//    }
 
     @RequestMapping("/db/tx")
     @ResponseBody

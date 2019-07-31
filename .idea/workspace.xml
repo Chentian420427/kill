@@ -3,13 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="13f6a730-9945-4985-9ff4-9a007388e7e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kill.iml" afterPath="$PROJECT_DIR$/kill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/RedisService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/RedisService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" afterPath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,60 +35,8 @@
       <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MQSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/RedisService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
+            <state relative-caret-position="242">
+              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -92,13 +45,68 @@
       <file leaf-file-name="MQReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods_detail.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="121" column="36" lean-forward="true" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiaoshaController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MQSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiaoshaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <folding>
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,12 +114,14 @@
       <file leaf-file-name="MQConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="293">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,11 +131,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-              <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-              </folding>
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/util/MD5Util.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
@@ -171,13 +176,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/domain/OrderInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/vo/GoodsVo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/goods_detail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/miaosha_fail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/order_detail.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/config/UserArgumentResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/MainApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/MiaoshaUserKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/MiaoshaUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/vo/GoodsDetailVo.java" />
@@ -190,20 +192,25 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/format.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/domain/MiaoshaUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/common.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/test.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MiaoshaMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/MiaoshaKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java" />
       </list>
     </option>
   </component>
@@ -220,9 +227,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="780" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="704" />
+    <option name="y" value="41" />
     <option name="width" value="1370" />
     <option name="height" value="1056" />
   </component>
@@ -317,7 +324,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,6 +400,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chentian" type="462c0819:PsiDirectoryNode" />
               <item name="kill" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chentian" type="462c0819:PsiDirectoryNode" />
+              <item name="kill" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,6 +423,17 @@
               <item name="chentian" type="462c0819:PsiDirectoryNode" />
               <item name="kill" type="462c0819:PsiDirectoryNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chentian" type="462c0819:PsiDirectoryNode" />
+              <item name="kill" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill" type="b2602c69:ProjectViewProjectNode" />
@@ -439,9 +471,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,15 +684,16 @@
       <workItem from="1564225260221" duration="3268000" />
       <workItem from="1564364666621" duration="1473000" />
       <workItem from="1564366902304" duration="1100000" />
-      <workItem from="1564470136156" duration="5056000" />
+      <workItem from="1564470136156" duration="7011000" />
+      <workItem from="1564579355578" duration="6143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94700000" />
+    <option name="totallyTimeSpent" value="102798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="704" y="41" width="1370" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,21 +704,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3483871" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3483871" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2983752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -713,7 +743,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35504887" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3548387" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -722,8 +752,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16174299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -791,27 +821,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/KeyPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/BasePrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3.jar!/redis/clients/jedis/BinaryJedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="765" column="0" lean-forward="false" selection-start-line="765" selection-start-column="0" selection-end-line="765" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -865,20 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -939,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/result/CodeMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -992,13 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/MiaoshaUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1052,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
@@ -1077,55 +1050,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="2728">
           <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="501">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/GoodsKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MiaoshaMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1133,45 +1093,139 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="170" column="34" lean-forward="false" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#3949#3979#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/GoodsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="434">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/MiaoshaKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/SampleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="278">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        <state relative-caret-position="377">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/dao/MiaoshaUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/MiaoshaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="121" column="36" lean-forward="true" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/rabbitmq/MQReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/redis/OrderKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chentian/kill/controller/MiaoshaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
           <folding />
         </state>
       </provider>
